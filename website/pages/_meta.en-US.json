@@ -1,0 +1,111 @@
+{
+  "index": {
+    "type": "page",
+    "title": "Million.js",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "wrapped": {
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "docs": {
+    "type": "page",
+    "title": "Docs"
+  },
+  "blog": {
+    "type": "page",
+    "title": "Blog"
+  },
+  "showcase": {
+    "type": "page",
+    "title": "Showcase",
+    "theme": {
+      "typesetting": "article",
+      "layout": "full"
+    }
+  },
+  "foundation": {
+    "display": "hidden",
+    "type": "page",
+    "title": "Foundation",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "telemetry": {
+    "display": "hidden",
+    "type": "page",
+    "title": "Telemetry",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "privacy": {
+    "display": "hidden",
+    "type": "page",
+    "title": "Privacy Policy",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "code-policy": {
+    "display": "hidden",
+    "type": "page",
+    "title": "Code Policy",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "terms": {
+    "display": "hidden",
+    "type": "page",
+    "title": "Terms of Service",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "faq": {
+    "type": "page",
+    "title": "FAQ",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "lint": {
+    "type": "page",
+    "title": "Lint",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "more": {
+    "title": "More",
+    "type": "menu",
+    "items": {
+      "privacy": {
+        "title": "Privacy Policy",
+        "href": "/privacy"
+      },
+      "code-policy": {
+        "title": "Code Policy",
+        "href": "/code-policy"
+      },
+      "terms": {
+        "title": "Terms of Service",
+        "href": "/terms"
+      },
+      "telemetry": {
+        "title": "Telemetry",
+        "href": "/telemetry"
+      }
+    }
+  }
+}

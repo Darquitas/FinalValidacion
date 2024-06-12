@@ -1,0 +1,20 @@
+{
+  "main": "dist/index.js",
+  "bin": {
+    "million": "./dist/index.js"
+  },
+  "scripts": {
+    "prepare": "node build.mjs",
+    "link": "yarn unlink --global && chmod +x dist/index.js && yarn link",
+    "dev": "node ./dist/index.js",
+    "prepublishOnly": "pnpm run build",
+    "clean": "rm -r dist node_modules"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "esbuild": "^0.14.54",
+    "esbuild-plugin-replace": "^1.4.0",
+    "prettier": "^2.8.4",
+    "typescript": "^5.1.6"
+  }
+}
